@@ -1,6 +1,5 @@
 import { ExternalLink, Github, Globe } from "lucide-react";
 import { Button } from "./ui/button";
-import my from "../../public/my.jpg";
 import portfolio from "../../public/favicon.ico";
 
 type Project = {
@@ -30,7 +29,7 @@ const Projects = () => {
       liveDemo: "https://portfolio-demo.netlify.app",
       github: "https://github.com/vaibhav-gupta/portfolio",
       status: "Completed",
-      image: my,
+      // image: my,
     },
     {
       title: "URL Shortener Web App",
@@ -46,7 +45,7 @@ const Projects = () => {
       liveDemo: "https://url-shortner-22b4.onrender.com/",
       github: "https://github.com/vaibhav-gupta/url-shortener",
       status: "Completed",
-      image: portfolio,
+      // image: portfolio,
     },
     {
       title: "E-Commerce Platform",
@@ -61,7 +60,7 @@ const Projects = () => {
       ],
       github: "https://github.com/vaibhav-gupta/ecommerce-platform",
       status: "In Development",
-      image: "/api/placeholder/400/300",
+      // image: "/api/placeholder/400/300",
     },
   ];
 
