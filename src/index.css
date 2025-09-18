@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Portfolio Design System - Black & Blue Theme
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Core Background & Foreground */
+    --background: 220 15% 8%;
+    --foreground: 210 40% 98%;
+
+    /* Blue Brand Colors */
+    --primary: 217 91% 60%;
+    --primary-dark: 217 91% 45%;
+    --primary-light: 217 91% 75%;
+    --primary-glow: 217 91% 60%;
+
+    /* Surface Colors */
+    --surface: 220 13% 12%;
+    --surface-hover: 220 13% 15%;
+
+    /* Card & Component Colors */
+    --card: 220 13% 12%;
+    --card-foreground: 210 40% 98%;
+    --card-border: 220 13% 20%;
+
+    --popover: 220 13% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 15% 8%;
+
+    --secondary: 220 13% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 13% 15%;
+    --muted-foreground: 215 16% 65%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 15% 8%), hsl(220 13% 12%));
+    --gradient-glow: radial-gradient(circle at center, hsl(217 91% 60% / 0.3), transparent 70%);
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.3);
+    --shadow-card: 0 8px 32px hsl(220 15% 4% / 0.5);
+    --shadow-subtle: 0 4px 16px hsl(220 15% 4% / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  /* Dark mode uses same colors as this is already a dark theme */
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 210 40% 98%;
+    --card: 220 13% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 13% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 15% 8%;
+    --secondary: 220 13% 18%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 215 16% 65%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 15% 8%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background-image: 
+      radial-gradient(circle at 20% 20%, hsl(217 91% 60% / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, hsl(217 91% 60% / 0.05) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Hero Button Variants */
+  .btn-hero {
+    @apply bg-gradient-to-r from-primary to-primary-dark text-primary-foreground 
+           hover:shadow-[0_0_30px_hsl(217_91%_60%_/_0.5)] hover:scale-105
+           transition-all duration-300 font-semibold px-8 py-3 rounded-lg;
+  }
+
+  .btn-outline-hero {
+    @apply border-2 border-primary text-primary bg-transparent 
+           hover:bg-primary hover:text-primary-foreground hover:shadow-glow
+           transition-all duration-300 font-semibold px-8 py-3 rounded-lg;
+  }
+
+  /* Card Variants */
+  .card-glow {
+    @apply bg-card/50 backdrop-blur-sm border border-card-border rounded-xl
+           hover:bg-card/80 hover:border-primary/30 hover:shadow-card
+           transition-all duration-300;
+  }
+
+  .card-project {
+    @apply bg-gradient-to-br from-card/80 to-surface/60 backdrop-blur-md 
+           border border-card-border rounded-xl p-6
+           hover:border-primary/40 hover:shadow-[0_8px_32px_hsl(217_91%_60%_/_0.2)]
+           hover:-translate-y-2 transition-all duration-500;
+  }
+
+  /* Skill Badge */
+  .skill-badge {
+    @apply bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-full
+           border border-border hover:border-primary/50 hover:shadow-subtle
+           hover:scale-105 transition-all duration-200 text-sm font-medium;
+  }
+
+  /* Section Headers */
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold bg-gradient-to-r from-foreground to-primary 
+           bg-clip-text text-transparent mb-4;
+  }
+
+  /* Glow Effect */
+  .glow-effect {
+    @apply relative;
+  }
+  
+  .glow-effect::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-primary/20 to-primary-dark/20 
+           rounded-lg blur-xl opacity-0 transition-opacity duration-300;
+  }
+  
+  .glow-effect:hover::before {
+    @apply opacity-100;
+  }
+
+  /* Animated underline */
+  .animated-underline {
+    @apply relative;
+  }
+  
+  .animated-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+  
+  .animated-underline:hover::after {
+    @apply w-full;
+  }
+}
