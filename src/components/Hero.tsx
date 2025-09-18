@@ -54,7 +54,7 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
 
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
         {/* Profile Picture */}
         <div className="mb-8 animate-scale-in">
           <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-primary-dark p-1 animate-pulse-glow">
