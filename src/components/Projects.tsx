@@ -62,6 +62,22 @@ const Projects = () => {
       status: "In Development",
       // image: "/api/placeholder/400/300",
     },
+    {
+      title: "SpendWise [An Expense Tracker WebApp]",
+      description:
+        "Currently developing a expense tracker website with React and Node.js. Features include user authentication ,daily , weekly & monthly expenses with different category.",
+      techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+      features: [
+        "User Registration & Authentication (Sign up, Login, Logout)",
+        "Add, edit, and delete expenses",
+        "Categorization of expenses (e.g., food, travel, bills)",
+        "Expense summaries on a daily, weekly, and monthly basis",
+        "Graphical analysis of expenses",
+      ],
+      github: "https://github.com/vaibhav-gupta/ecommerce-platform",
+      status: "In Development",
+      // image: "/api/placeholder/400/300",
+    },
   ];
 
   return (
