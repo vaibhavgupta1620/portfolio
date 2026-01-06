@@ -16,18 +16,18 @@ type Project = {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: "Personal Portfolio",
+      title: " ResX.AI– AI-Powered Resume Analyzer (MERN + AI)",
       description:
-        "A responsive portfolio website showcasing my projects and skills with interactive elements and SEO optimization. Features smooth scrolling, project modals, and modern design principles.",
-      techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        "Developed a full- stack AI - powered resume analyzer using MERN, FastAPI, and NLP for resume parsing, skill extraction, and job–resume matching.",
+      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Python", "FastAPI", "NLP", "REST", "APIs"],
       features: [
-        "Responsive design across all devices",
-        "Interactive elements and smooth scrolling",
-        "SEO optimized for better visibility",
-        "Project showcase with modal views",
+        "AI-powered resume parsing and skill extraction using NLP for accurate analysis",
+        "Interactive dashboards and data visualizations for clear, actionable analysis results",
+        "Responsive, modern UI with performance optimization across all devices",
+        "Secure authentication and user-specific resume history tracking",
       ],
-      liveDemo: "https://portfolio-demo.netlify.app",
-      github: "https://github.com/vaibhav-gupta/portfolio",
+      liveDemo: "https://res-x-ai.vercel.app/",
+      github: "https://github.com/vaibhavgupta1620/ResX-AI",
       status: "Completed",
       // image: my,
     },
@@ -47,21 +47,7 @@ const Projects = () => {
       status: "Completed",
       // image: portfolio,
     },
-    {
-      title: "E-Commerce Platform",
-      description:
-        "Currently developing a modern e-commerce platform with React and Node.js. Features include user authentication, product catalog, shopping cart, and payment integration.",
-      techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-      features: [
-        "User authentication and authorization",
-        "Dynamic product catalog",
-        "Shopping cart functionality",
-        "Payment gateway integration",
-      ],
-      github: "https://github.com/vaibhav-gupta/ecommerce-platform",
-      status: "In Development",
-      // image: "/api/placeholder/400/300",
-    },
+
     {
       title: "SpendWise [An Expense Tracker WebApp]",
       description:
@@ -74,8 +60,9 @@ const Projects = () => {
         "Expense summaries on a daily, weekly, and monthly basis",
         "Graphical analysis of expenses",
       ],
-      github: "https://github.com/vaibhav-gupta/ecommerce-platform",
-      status: "In Development",
+      liveDemo: "",
+      github: "https://github.com/vaibhavgupta1620/spend_wise",
+      status: "Completed",
       // image: "/api/placeholder/400/300",
     },
   ];
