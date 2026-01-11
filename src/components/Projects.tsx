@@ -60,7 +60,7 @@ const Projects = () => {
         "Expense summaries on a daily, weekly, and monthly basis",
         "Graphical analysis of expenses",
       ],
-      liveDemo: "",
+      liveDemo: "https://spendwise-frontend-pi.vercel.app/",
       github: "https://github.com/vaibhavgupta1620/spend_wise",
       status: "Completed",
       // image: "/api/placeholder/400/300",
