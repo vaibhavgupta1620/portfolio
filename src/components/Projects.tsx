@@ -16,54 +16,34 @@ type Project = {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: " ResX.AI– AI-Powered Resume Analyzer (Data-Driven AI)",
+      title: "SpendWise [Expense Tracker]",
       description:
-        "Developed an AI-powered resume analyzer using Python, FastAPI, and NLP for resume parsing, skill extraction, and data-driven job matching.",
-      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Python", "FastAPI", "NLP", "REST", "APIs"],
+        "Developed a responsive MERN expense tracker featuring group management with approval workflows and customizable categorization.",
+      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Chart.js", "JWT", "Context API"],
       features: [
-        "AI-powered resume parsing and skill extraction using NLP for accurate analysis",
-        "Interactive dashboards and data visualizations for clear, actionable analysis results",
-        "Responsive, modern UI with performance optimization across all devices",
-        "Secure authentication and user-specific resume history tracking",
+        "Group management with approval workflows and customizable categorization",
+        "Dynamic visual analytics using graphical representations for spending patterns",
+        "Secure JWT authentication and automated budget limit alerts",
+        "Responsive and robust financial monitoring and data security",
       ],
-      liveDemo: "https://res-x-ai.vercel.app/",
-      github: "https://github.com/vaishnavi-dwivedi/ResX-AI",
+      liveDemo: "https://spendwise-frontend-pi.vercel.app/",
+      github: "https://github.com/vaibhavgupta1620/spend_wise",
       status: "Completed",
-      // image: my,
     },
     {
       title: "URL Shortener Web App",
       description:
-        "A full-stack web application that allows users to generate short, shareable URLs. Built with modern web technologies and deployed on Render for reliable hosting.",
-      techStack: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js"],
+        "Developed a web application using Node.js and MongoDB to convert long URLs into shareable short codes.",
+      techStack: ["Node.js", "Express.js", "MongoDB", "JavaScript", "Render"],
       features: [
-        "Generate short URLs from long links",
-        "Responsive frontend with user feedback",
-        "Full-stack architecture",
-        "Cloud deployment on Render",
+        "Convert long URLs into shareable short codes",
+        "Backend logic to handle redirection and mapping shortened links efficiently",
+        "Responsive and intuitive UI for easy link submission and instant results",
+        "Deplolyed on Render for reliable hosting and redirection",
       ],
       liveDemo: "https://url-shortner-22b4.onrender.com/",
-      github: "https://github.com/vaishnavi-dwivedi/url-shortener",
+      github: "https://github.com/vaibhavgupta1620/url-shortener",
       status: "Completed",
-      // image: portfolio,
-    },
-
-    {
-      title: "SpendWise [An Expense Tracker WebApp]",
-      description:
-        "Currently developing an expense tracker website with React and Node.js. Features include user authentication, daily, weekly & monthly expenses with different categories.",
-      techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-      features: [
-        "User Registration & Authentication (Sign up, Login, Logout)",
-        "Add, edit, and delete expenses",
-        "Categorization of expenses (e.g., food, travel, bills)",
-        "Expense summaries on a daily, weekly, and monthly basis",
-        "Graphical analysis of expenses",
-      ],
-      liveDemo: "https://spendwise-frontend-pi.vercel.app/",
-      github: "https://github.com/vaishnavi-dwivedi/spend_wise",
-      status: "Completed",
-      // image: "/api/placeholder/400/300",
     },
   ];
 
@@ -75,7 +55,7 @@ const Projects = () => {
           <h2 className="section-title">Featured Projects</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A collection of projects that demonstrate my skills and passion for
-            data analytics and problem solving
+            full-stack development and problem solving
           </p>
         </div>
 
@@ -197,7 +177,7 @@ const Projects = () => {
           </p>
           <Button className="btn-outline-hero" asChild>
             <a
-              href="https://github.com/vaishnavi-dwivedi"
+              href="https://github.com/vaibhavgupta1620"
               target="_blank"
               rel="noopener noreferrer"
             >

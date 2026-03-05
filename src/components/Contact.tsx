@@ -18,19 +18,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'vaishnavid8800@gmail.com',
-      href: 'mailto:vaishnavid8800@gmail.com'
+      value: 'vaibhavgupta1620@gmail.com',
+      href: 'mailto:vaibhavgupta1620@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 9770055855',
-      href: 'tel:+919770055855'
+      value: '+91-9630053241',
+      href: 'tel:+919630053241'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Rewa, Madhya Pradesh, India',
+      value: 'Indore, Madhya Pradesh, India',
       href: null
     }
   ];
@@ -39,13 +39,13 @@ const Contact = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/vaishnavi-dwivedi',
+      href: 'https://linkedin.com/in/vaibhavgupta1620',
       color: 'hover:text-blue-400'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/vaishnavi-dwivedi',
+      href: 'https://github.com/vaibhavgupta1620',
       color: 'hover:text-gray-300'
     }
   ];

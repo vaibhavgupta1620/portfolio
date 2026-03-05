@@ -3,78 +3,47 @@ import { GraduationCap, Award, Calendar, MapPin } from 'lucide-react';
 const Education = () => {
   const educationData = [
     {
-      degree: 'Master of Computer Applications',
-      institution: 'APS University',
-      location: 'Rewa, Madhya Pradesh',
-      duration: 'Aug 2025 - Jun 2027',
-      grade: 'Pursuing',
+      degree: 'Master of Computer Applications (M.C.A.)',
+      institution: 'Medicaps University',
+      location: 'Indore, Madhya Pradesh',
+      duration: 'Aug 2024 – Jun 2026',
+      grade: '8.04 / 10 CGPA',
       status: 'Currently Pursuing',
-      description: 'Advanced studies in computer applications with focus on modern web technologies, software engineering, and database management.',
+      description: 'Advanced studies in computer applications with focus on MERN stack development, software engineering, and database management.',
       highlights: [
-        'Specialization in Web Development',
-        'Advanced Programming Concepts',
-        'Software Engineering Principles',
-        'Database Design & Management'
+        'Specialization in MERN Stack',
+        'Advanced Data Structures & Algorithms',
+        'Database Management Systems',
+        'Modern Web Architecture'
       ]
     },
     {
-      degree: 'Bachelor of Science (Hons.) – Computer Science',
-      institution: 'APS University',
+      degree: 'Bachelor of Computer Applications (B.C.A.)',
+      institution: 'Awadhesh Pratap Singh University',
       location: 'Rewa, Madhya Pradesh',
-      duration: 'July 2021 – June 2024',
-      grade: '7.57 / 10 CGPA',
+      duration: 'Aug 2021 – Jun 2024',
+      grade: '8.08 / 10 CGPA',
       status: 'Completed',
-      description: 'Undergraduate degree focusing on Computer Science principles, algorithms, and software development.',
+      description: 'Undergraduate degree focusing on computer science fundamentals, programming, and software development.',
       highlights: [
-        'B.Sc. (Hons.) in Computer Science',
         'Academic Excellence',
-        'Programming Fundamentals',
-        'System Analysis'
+        'Programming Fundamentals (Java, C++)',
+        'Web Development Basics',
+        'System Analysis & Design'
       ]
     },
     {
-      degree: 'Diploma in Computer Applications (DCA)',
-      institution: 'Makhanlal Chaturvedi University',
-      location: 'Online/Distance',
-      duration: 'June 2021',
-      grade: '78.86%',
+      degree: 'Higher Secondary (12th)',
+      institution: 'ECI Higher Secondary School',
+      location: 'Rewa, Madhya Pradesh',
+      duration: 'Jul 2020 – Mar 2021',
+      grade: '70.80%',
       status: 'Completed',
-      description: 'Professional diploma in computer applications focusing on fundamental computing skills.',
+      description: 'Senior secondary education with a strong foundation in science and mathematics.',
       highlights: [
-        'DCA Certification',
-        'Office Automation',
-        'Computer Basics',
-        'Digital Literacy'
-      ]
-    },
-    {
-      degree: '12th – PCMB',
-      institution: 'M.P. Board',
-      location: 'Madhya Pradesh',
-      duration: 'July 2020',
-      grade: '68%',
-      status: 'Completed',
-      description: 'Higher secondary education with a focus on Physics, Chemistry, Mathematics, and Biology.',
-      highlights: [
-        'Senior Secondary Education',
-        'PCMB Stream',
-        'Science Foundation',
-        'Analytical Thinking'
-      ]
-    },
-    {
-      degree: '10th – Mathematics & Science',
-      institution: 'M.P. Board',
-      location: 'Madhya Pradesh',
-      duration: 'July 2018',
-      grade: '71.20%',
-      status: 'Completed',
-      description: 'Secondary school education with high emphasis on Mathematics and Science subjects.',
-      highlights: [
-        'Secondary Education',
-        'Mathematical Foundation',
-        'Scientific Principles',
-        'Overall Academic Foundation'
+        'Science & Mathematics Stream',
+        'Analytical Thinking',
+        'Foundation for Technical Studies'
       ]
     }
   ];
@@ -160,22 +129,18 @@ const Education = () => {
         {/* Academic Achievements */}
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-center mb-8 text-primary">Academic Excellence</h3>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div className="card-glow p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-4">MCA</div>
-              <div className="text-sm text-muted-foreground">Currently Pursuing</div>
+              <div className="text-3xl font-bold text-primary mb-4">8.04</div>
+              <div className="text-sm text-muted-foreground">MCA CGPA (Pursuing)</div>
             </div>
             <div className="card-glow p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-4">7.57</div>
+              <div className="text-3xl font-bold text-primary mb-4">8.08</div>
               <div className="text-sm text-muted-foreground">Bachelor's CGPA</div>
             </div>
             <div className="card-glow p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-4">78.86%</div>
-              <div className="text-sm text-muted-foreground">DCA Percentage</div>
-            </div>
-            <div className="card-glow p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-4">2026</div>
-              <div className="text-sm text-muted-foreground">Expected Grad</div>
+              <div className="text-3xl font-bold text-primary mb-4">70.80%</div>
+              <div className="text-sm text-muted-foreground">12th Percentage</div>
             </div>
           </div>
         </div>

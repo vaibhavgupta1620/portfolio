@@ -10,39 +10,39 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Programming & Analysis',
+      title: 'MERN Stack',
       icon: Code,
-      skills: ['Python', 'SQL', 'JavaScript', 'C', 'Java'],
+      skills: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      title: 'Data Visualization',
+      title: 'Programming',
+      icon: GitBranch,
+      skills: ['JavaScript (ES6+)', 'Java (Core)', 'DSA'],
+      color: 'from-orange-500 to-red-500'
+    },
+    {
+      title: 'Frontend/UI',
       icon: Globe,
-      skills: ['Power BI', 'Matplotlib', 'Seaborn', 'Excel'],
+      skills: ['HTML5', 'CSS3', 'Tailwind CSS'],
       color: 'from-green-500 to-emerald-500'
     },
     {
-      title: 'Database Management',
+      title: 'Backend/Concepts',
       icon: Database,
-      skills: ['SQL Server', 'MySQL', 'MongoDB', 'PostgreSQL'],
+      skills: ['RESTful APIs', 'JWT Authentication', 'OOPS', 'DBMS'],
       color: 'from-purple-500 to-pink-500'
     },
     {
       title: 'Tools & Platforms',
       icon: Settings,
-      skills: ['VS Code', 'Git', 'GitHub', 'Jupyter Notebook'],
-      color: 'from-orange-500 to-red-500'
-    },
-    {
-      title: 'Statistical Analysis',
-      icon: GitBranch,
-      skills: ['Descriptive Statistics', 'Inferential Statistics', 'Hypothesis Testing'],
+      skills: ['Git', 'GitHub', 'VS Code', 'Render', 'Vercel'],
       color: 'from-indigo-500 to-blue-500'
     },
     {
-      title: 'Core Concepts',
+      title: 'Core Foundation',
       icon: Lightbulb,
-      skills: ['Data Structures', 'Machine Learning', 'DBMS', 'Data Storytelling'],
+      skills: ['Responsive Design', 'Clean Code', 'Web Security', 'Version Control'],
       color: 'from-yellow-500 to-orange-500'
     }
   ];
@@ -53,7 +53,7 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Technical Skills</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit for data analysis, visualization, and insight generation
+            A comprehensive toolkit for full-stack web development and problem solving
           </p>
         </div>
 

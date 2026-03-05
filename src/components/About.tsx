@@ -4,23 +4,23 @@ const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: 'Data Analytics',
-      description: 'Proficient in Python, SQL, and statistical analysis'
+      title: 'Full-Stack MERN',
+      description: 'Expertise in MongoDB, Express.js, React.js, and Node.js'
+    },
+    {
+      icon: Target,
+      title: 'Problem Solver',
+      description: 'Strong foundation in DSA, OOPS, and Core Java'
     },
     {
       icon: Zap,
       title: 'Quick Learner',
-      description: 'Rapidly adapting to new technologies and frameworks'
+      description: 'Passionate about exploring and adapting to new technologies'
     },
     {
       icon: Users,
-      title: 'Team Player',
-      description: 'Collaborative approach to problem-solving and development'
-    },
-    {
-      icon: Target,
-      title: 'Goal-Oriented',
-      description: 'Focused on delivering impactful, user-centered solutions'
+      title: 'Active Collaborator',
+      description: 'Eager to take on challenges and improve as a developer'
     }
   ];
 
@@ -30,7 +30,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Turning complex data into actionable insights
+            Building responsive and user-friendly web applications
           </p>
         </div>
 
@@ -40,30 +40,30 @@ const About = () => {
             <div className="card-glow p-8">
               <h3 className="text-2xl font-bold mb-4 text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a motivated and detail-oriented Data Analyst currently pursuing my Master's in Computer Applications
-                at APS University, Rewa. With a solid foundation in data manipulation and statistical modeling,
-                I specialize in transforming raw data into meaningful visualizations and business insights.
+                I am an MCA final-year student at Medicaps University with a strong interest in full-stack web development.
+                I have hands-on experience working with the MERN stack (MongoDB, Express.js, React.js, and Node.js)
+                and a good understanding of Core Java concepts, DSA, and OOPS.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                My technical expertise spans across Python, SQL, Excel, and Power BI, with hands-on experience
-                in data cleaning, exploratory data analysis, and predictive modeling. I have a passion for data storytelling,
-                precision, and continuously learning new analytical techniques.
+                I enjoy building responsive and user-friendly web applications, always striving to write clean and efficient code.
+                My focus is on creating robust applications that provides great user experience while maintaining a
+                well-structured backend.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                As someone who thrives in collaborative environments, I'm eager to contribute my analytical skills to
-                impactful projects and help organizations make data-driven decisions. My goal is to build solutions
-                that translate complex datasets into clear, strategic advantages.
+                I'm a quick learner, passionate about exploring new technologies, and eager to take on challenges
+                that help me improve my skills as a developer. I'm currently looking for opportunities where I can
+                contribute my technical skills to meaningful projects.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4">
               <div className="card-glow p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">MCA</div>
-                <div className="text-sm text-muted-foreground">Pursuing</div>
+                <div className="text-3xl font-bold text-primary mb-2">8.04</div>
+                <div className="text-sm text-muted-foreground">MCA CGPA (Pursuing)</div>
               </div>
               <div className="card-glow p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">7.57</div>
+                <div className="text-3xl font-bold text-primary mb-2">8.08</div>
                 <div className="text-sm text-muted-foreground">Bachelor's CGPA</div>
               </div>
             </div>

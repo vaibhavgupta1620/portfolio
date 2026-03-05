@@ -19,7 +19,6 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -42,7 +41,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('#home')}
             className="text-3xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"
           >
-            Vaishnavi Dwivedi
+            Vaibhav Gupta
           </button>
 
           {/* Desktop Menu */}

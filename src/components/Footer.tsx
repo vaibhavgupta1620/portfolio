@@ -7,19 +7,19 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/vaishnavi-dwivedi',
+      href: 'https://linkedin.com/in/vaibhavgupta1620',
       color: 'hover:text-blue-400'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/vaishnavi-dwivedi',
+      href: 'https://github.com/vaibhavgupta1620',
       color: 'hover:text-gray-300'
     },
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:vaishnavid8800@gmail.com',
+      href: 'mailto:vaibhavgupta1620@gmail.com',
       color: 'hover:text-primary'
     }
   ];
@@ -28,7 +28,6 @@ const Footer = () => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' }
   ];
@@ -54,11 +53,11 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"
             >
-              Vaishnavi Dwivedi
+              Vaibhav Gupta
             </button>
             <p className="text-muted-foreground leading-relaxed">
-              Data Analyst passionate about transforming data into
-              meaningful insights and solving real-world business problems.
+              Full-Stack MERN Developer passionate about building responsive
+              web applications and solving real-world problems.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
@@ -100,18 +99,18 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-primary">Get In Touch</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>📍 Rewa, Madhya Pradesh, India</p>
+              <p>📍 Indore, Madhya Pradesh, India</p>
               <a
-                href="mailto:vaishnavid8800@gmail.com"
+                href="mailto:vaibhavgupta1620@gmail.com"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                📧 vaishnavid8800@gmail.com
+                📧 vaibhavgupta1620@gmail.com
               </a>
               <a
-                href="tel:+919770055855"
+                href="tel:+919630053241"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                📞 +91 9770055855
+                📞 +91 9630053241
               </a>
             </div>
           </div>
@@ -121,7 +120,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-muted-foreground">
-              <span>© {currentYear} Vaishnavi Dwivedi. Built with</span>
+              <span>© {currentYear} Vaibhav Gupta. Built with</span>
               <Heart className="h-4 w-4 text-red-500 animate-pulse" />
               <span>using React & Tailwind CSS</span>
             </div>

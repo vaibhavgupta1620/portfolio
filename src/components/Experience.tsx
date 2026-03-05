@@ -39,8 +39,8 @@ const Experience = () => {
                   </div>
                   <div className="flex flex-col lg:items-end space-y-2">
                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${experience.type === 'Internship'
-                        ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
-                        : 'bg-green-500/20 text-green-400 border border-green-500/30'
+                      ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                      : 'bg-green-500/20 text-green-400 border border-green-500/30'
                       }`}>
                       {experience.type}
                     </span>
@@ -102,8 +102,8 @@ const Experience = () => {
             <h3 className="text-2xl font-bold mb-4 text-primary">Open to Opportunities</h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
               I'm actively seeking full-time opportunities and internships where I can contribute
-              to meaningful projects while continuing to grow as a Data Analyst. I'm particularly
-              interested in roles that involve data visualization, statistical modeling, and
+              to meaningful projects while continuing to grow as a Full-Stack MERN Developer. I'm particularly
+              interested in roles that involve building scalable web applications, modern UI/UX design, and
               collaborative team environments.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
